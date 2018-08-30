@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SafeCall</string>
+    <string name="press_call_btn_des">按下这个按键，你会直接接通紧急服务。仅限于紧急情况按下！</string>
+
+</resources>
