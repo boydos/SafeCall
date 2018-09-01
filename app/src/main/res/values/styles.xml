@@ -1,11 +1,87 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>//无标题
+        <item name="android:windowActionBar">false</item>//无ActionBar
+        <item name="android:windowFullscreen">false</item>//全屏即无通知栏
+        <item name="android:windowContentOverlay">@null</item>//是否有遮盖
+
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_to_left</item>
+    </style>
+    <style name="AppTheme" parent="@style/BaseAppTheme">
+        <item name="android:listDivider">@drawable/list_divider</item>
+    </style>
+    <style name="AnimFade" parent="@style/AppTheme">
+        <item name="android:windowAnimationStyle">@style/fade</item>
+    </style>
+
+
+    <!-- news  -->
+    <style name="item_title">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/item_title_normal</item>
+    </style>
+
+    <style name="item_secondary_text">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">@color/ss_comment_time</item>
+    </style>
+
+    <style name="item_local">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/item_local</item>
+        <item name="android:background">@drawable/list_item_local_bg</item>
+    </style>
+
+    <style name="item_abstract">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/item_abstract_normal</item>
+    </style>
+
+    <style name="item_image">
+        <item name="android:background">@drawable/small_image_holder_listpage</item>
+        <item name="android:layout_width">@dimen/item_image_width</item>
+        <item name="android:layout_height">@dimen/item_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="item_image_gap">
+        <item name="android:layout_width">15.0dip</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="item_comment_content">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/default_text_night</item>
+    </style>
+    <style name="item_section_text">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/default_text</item>
+    </style>
+    <style name="favorite_del_btn">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/favorite_delete_btn</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/favorite_btn_delete</item>
+    </style>
 </resources>

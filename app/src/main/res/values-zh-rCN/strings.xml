@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">安全呼叫</string>
     <string name="press_call_btn_des">按下这个按键，你会直接接通紧急服务。仅限于紧急情况按下！</string>
+    <string name="favorite_btn_delete">删除</string>
+
+    <string name="home">首页</string>
+    <string name="add_people">联系人</string>
+    <string name="show_teach">教程</string>
+
+    <string name="home_des">按下这个按键,你会直接接通紧急服务.仅限于紧急情况按下!</string>
+
 </resources>

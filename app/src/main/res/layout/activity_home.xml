@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_layout_id"
+    android:background="@drawable/img_registration_backdrop"
+    android:orientation="vertical">
+<!--        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />-->
+        <RelativeLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_registration_backdrop">
+                <com.safecall.xj.safecall.view.NoScrollViewPager
+                    android:layout_width="match_parent"
+                    android:id="@+id/view_pager"
+                    android:layout_marginBottom="48dp"
+                    android:layout_height="match_parent"
+                    />
+                <com.mobile.jptabbar.JPTabBar
+                    android:id="@+id/jpbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/home_bar"
+                    jp:TabTextSize="10sp"
+                    jp:TabMiddleHMargin="5dp"
+                    />
+        </RelativeLayout>
+</LinearLayout>
