@@ -7,6 +7,56 @@
     <string name="add_people">联系人</string>
     <string name="show_teach">教程</string>
 
+    <string name="confrim">呼叫</string>
+    <string name="cancel">取消</string>
+
     <string name="home_des">按下这个按键,你会直接接通紧急服务.仅限于紧急情况按下!</string>
+    <string name="edit_des">添加,移除或者编辑指定联系人</string>
+    <string name="setting_des">设置个人信息,以及默认紧急呼叫号码,医院:120, 消防:119, 报警:110</string>
+
+    <string name="people1">联系人1</string>
+    <string name="people2">联系人2</string>
+    <string name="people3">联系人3</string>
+
+    <string name="my_info">个人信息</string>
+    <string name="default_number">默认紧急号码</string>
+    <string name="call_number">紧急号码</string>
+
+    <string name="user_name">名字</string>
+    <string name="user_email">邮箱</string>
+    <string name="user_phone">电话</string>
+
+
+
+    <string name="add_next_people">+添加下一个联系人</string>
+
+    <string name="skip">跳过</string>
+    <string name="finish">完成</string>
+    <string name="save">保存</string>
+
+    <string name="tip_for_email">[%s]邮箱格式不正确!</string>
+    <string name="tip_for_phone">[%s]手机号码不正确!</string>
+
+    <string name="tip_for_empty">请输入完整的用户信息!</string>
+    <string name="tip_for_one">至少输入一个联系人！</string>
+    <string name="tip_for_success">保存成功！</string>
+
+    <string name="email_title">%s的一封信息</string>
+    <string name="email_content">
+        %s: 您好,%s通过安全应用发来一封信息,他/她的最后已知位置是%s   ——Safe Center App ——%s
+    </string>
+    <string name="send_msg_content">注意！注意！您的朋友[%s],正在拨打[%s],他最近位置在[%s]</string>
+
+    <string name="digst_email">1234567890abcdefghigklmnopqrstuvwxyz@_-+=#~*.</string>
+    <string name="digst_phone">1234567890</string>
+
+    <string name="tour_head1">欢迎使用安全呼叫应用</string>
+    <string name="tour_head2">紧急报警</string>
+    <string name="tour_head3">自动定位</string>
+
+    <string name="tour_tail1">向左滑动开始教程</string>
+    <string name="tour_tail2">当遇到紧急情况,可以按下这个按钮,系统将进行紧急呼叫,同时给朋友发送安全信息.</string>
+    <string name="tour_tail3">您的最后一个已知位置信息会被发送给三个指定联系人</string>
+
 
 </resources>

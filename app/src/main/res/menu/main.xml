@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_people" android:title="编辑联系人"/>
+    <item android:id="@+id/setting" android:title="系统设置"/>
+    <item android:id="@+id/show_tutorial" android:title="展示教程"/>
+</menu>
